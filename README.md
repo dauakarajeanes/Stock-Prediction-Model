@@ -37,7 +37,7 @@ This project is a **Google stock price prediction tool** designed to forecast fu
 ## Requirements
 
 To run this project locally, you will need:
-- **Python 3.x**
+- **Python 3.10.15**
 - **TensorFlow**
 - **Keras**
 - **Streamlit**
@@ -59,6 +59,4 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
-5. Enter the stock symbol (Google, use "GOOG") and view the predicted stock prices and visualizations.
-
 
