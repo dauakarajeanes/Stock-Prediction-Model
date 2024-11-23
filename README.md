@@ -7,7 +7,7 @@ This project is a **Google stock price prediction tool** designed to forecast fu
 ## Core Features
 
 ### **Neural Network-Based Prediction**:
-- The tool uses a **pre-trained machine learning model** (`Stock Prediction Model.keras`) built with **TensorFlow** and **Keras**.
+- The tool uses a **pre-trained machine learning model** (`Stock Prediction Model.keras`) I trained and built with **TensorFlow** and **Keras**.
 - The model predicts the future **Google stock prices** based on 100 days of historical closing prices.
 
 ### **Google Stock Data Retrieval**:
