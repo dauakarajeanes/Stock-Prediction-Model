@@ -24,11 +24,6 @@ This project is a **Google stock price prediction tool** designed to forecast fu
 ### **Data Preprocessing**:
 - **MinMaxScaler** is used to scale the data to ensure better performance of the neural network.
 - Handles **historical data aggregation** and **test data preparation** for precise prediction generation.
-
-### **Streamlit Integration**:
-- The project is built as an **interactive web application** using **Streamlit**, providing an intuitive way for users to visualize predictions and trends in real time.
-- Outputs **interactive plots** and **tables** for easy analysis and exploration.
-
 ---
 
 ## How It Works
@@ -36,14 +31,6 @@ This project is a **Google stock price prediction tool** designed to forecast fu
 1. **Historical Data Input**: The model takes 100 consecutive days of **Google stock closing prices** as input.
 2. **Neural Network Prediction**: Using the pre-trained neural network, the tool predicts the stock price for the **101st day**.
 3. **Visualization**: The results are displayed using interactive graphs, which compare the **predicted prices** with the **actual historical prices**, alongside moving averages to visualize stock price trends.
-
----
-
-## Ideal Use Cases
-This tool is perfect for:
-- **Financial enthusiasts** and **analysts** who want to explore stock price predictions for **Google**.
-- **Machine learning learners** who want to see the application of neural networks in stock market analysis.
-- Anyone looking to **visualize trends** and analyze the performance of a **predictive model** for stock prices over a long period of time.
 
 ---
 
