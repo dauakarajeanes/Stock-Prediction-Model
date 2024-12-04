@@ -7,7 +7,7 @@ This project is a **Google stock price prediction tool** designed to forecast fu
 ## Core Features
 
 ### **Neural Network-Based Prediction**:
-- The tool uses a **pre-trained machine learning model** (`Stock Prediction Model.keras`) built with **TensorFlow** and **Keras**.
+- The tool uses a **pre-trained machine learning model** (`Stock Prediction Model.keras`) I trained and built with **TensorFlow** and **Keras**.
 - The model predicts the future **Google stock prices** based on 100 days of historical closing prices.
 
 ### **Google Stock Data Retrieval**:
@@ -24,11 +24,6 @@ This project is a **Google stock price prediction tool** designed to forecast fu
 ### **Data Preprocessing**:
 - **MinMaxScaler** is used to scale the data to ensure better performance of the neural network.
 - Handles **historical data aggregation** and **test data preparation** for precise prediction generation.
-
-### **Streamlit Integration**:
-- The project is built as an **interactive web application** using **Streamlit**, providing an intuitive way for users to visualize predictions and trends in real time.
-- Outputs **interactive plots** and **tables** for easy analysis and exploration.
-
 ---
 
 ## How It Works
@@ -39,18 +34,10 @@ This project is a **Google stock price prediction tool** designed to forecast fu
 
 ---
 
-## Ideal Use Cases
-This tool is perfect for:
-- **Financial enthusiasts** and **analysts** who want to explore stock price predictions for **Google**.
-- **Machine learning learners** who want to see the application of neural networks in stock market analysis.
-- Anyone looking to **visualize trends** and analyze the performance of a **predictive model** for stock prices over a long period of time.
-
----
-
 ## Requirements
 
 To run this project locally, you will need:
-- **Python 3.x**
+- **Python 3.10.15**
 - **TensorFlow**
 - **Keras**
 - **Streamlit**
@@ -72,6 +59,4 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
-5. Enter the stock symbol (Google, use "GOOG") and view the predicted stock prices and visualizations.
-
 
